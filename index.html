@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    </header>
+    
+    <main>
+        <section>
+            <h1 id="titulo">Calculadora</h1>
+            <div id="tela-calculadora">
+                <input type="text" name="visor" id="visor" readonly>
+                <div class="botoes">
+                    <button type="button" class="btn-limpar" data-valor="C">C</button>
+                    <button type="button" class="btn-apagar" data-valor="#">#</button>
+                    <button type="button" class="btn-operador" data-valor="%">%</button>
+                    <button type="button" class="btn-operador" data-valor="/">/</button>
+
+                    <button type="button" class="btn-numero" data-valor="7">7</button>
+                    <button type="button" class="btn-numero" data-valor="8">8</button>
+                    <button type="button" class="btn-numero" data-valor="9">9</button>
+                    <button type="button" class="btn-operador" data-valor="*">X</button>
+
+                    <button type="button" class="btn-numero" data-valor="4">4</button>
+                    <button type="button" class="btn-numero" data-valor="5">5</button>
+                    <button type="button" class="btn-numero" data-valor="6">6</button>
+                    <button type="button" class="btn-operador" data-valor="-">-</button>
+
+                    <button type="button" class="btn-numero" data-valor="1">1</button>
+                    <button type="button" class="btn-numero" data-valor="2">2</button>
+                    <button type="button" class="btn-numero" data-valor="3">3</button>
+                    <button type="button" class="btn-operador" data-valor="+">+</button>
+
+                    <button type="button" class="btn-numero" data-valor="()">()</button>
+                    <button type="button" class="btn-numero" data-valor="0">0</button>
+                    <button type="button" class="btn-numero" data-valor=".">,</button>
+                    <button type="button" class="btn-operador" data-valor="=">=</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p><small>&copy; 2026 Felipe Aquino. <em>Todos os direitos reservados.</em></small></p>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
